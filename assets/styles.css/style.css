@@ -76,7 +76,7 @@ header{
   }
 
 .card{
-
+    border:1px solid #DC3545
     height: 380px;
 }
 .card-body{
