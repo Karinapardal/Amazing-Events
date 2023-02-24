@@ -3,7 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html,body{
+    overflow-x: hidden;
+    height:100%;
+    width:101%;
+    margin: 0px;
+    padding: 0px;
+  }
 
 header{
     background-color: #f4b3b9;
@@ -74,9 +80,15 @@ header{
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(108%);
   }
+.container{
+    margin-right: 60px;
+}
 
+.col{
+    margin-bottom: 20px
+}
 .card{
-
+    border:1px solid #DC3545;
     height: 380px;
 }
 .card-body{
@@ -102,6 +114,9 @@ header{
 
     background-color: #FFFFFF;
 }
+
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 576px){
 
